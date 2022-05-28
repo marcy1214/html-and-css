@@ -212,6 +212,14 @@
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
+  outline: 0;
+}
+
+.btn .icon {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+  vertical-align: middle;
 }
 
 .btn--primary {
@@ -285,7 +293,7 @@
 .input-group .input {
   border: 0;
   flex-grow: 1;
-  padding: 1.5rem 1rem;
+  padding: 1.5rem 2rem;
 }
 
 .input-group .btn {
@@ -658,4 +666,18 @@
     text-align: left;
     align-self: center;
   }
+}
+
+/*domain block*/
+
+.block-domain .input-group {
+  box-shadow: 0 0 30px 20 #e6ebee;
+  border: 0;
+  margin: 4rem 0;
+}
+
+.block-domain__prices {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 6rem);
 }
